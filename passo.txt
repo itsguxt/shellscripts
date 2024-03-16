@@ -1,9 +1,5 @@
 git init
 git add .
 
-git config --global user.name "itsguxt"
-git config --global "itsguxt@gmail.com"
-
-git commit -m "Inicializar projeto"
-git remote add origin URL_do_repositorio
+git commit -m "first commit"
 git branch -M main
