@@ -1,6 +1,9 @@
 #!/bin/bash
 
-####VARIÁVEIS
+#----------------------------#
+#----------VARIÁVEIS---------#
+#----------------------------#
+
 USUARIOS="$(cat /etc/passwd | cut -d : -f 1 )"
 MENSAGEM_USO="
     $0 - [OPÇÕES]
@@ -13,7 +16,11 @@ VERSAO="v1.0"
 # echo $VERSAO
 
 
-####EXECUÇÃO
+
+#----------------------------#
+#----------EXECUÇÃO----------#
+#----------------------------#
+
 if [ "$1" = "-h" ]; then
     echo "$MENSAGEM_USO" && exit  0
 fi
